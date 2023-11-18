@@ -1,0 +1,9 @@
+{
+  "hiddenElements": [
+    { "selector": ".modified", "content": "ID" },
+    { "selector": ".text-subhead", "content": "Rails" },
+    { "selector": ".element", "content": "123" },
+    { "selector": ".v-btn__content", "content": "для админов" },
+    { "selector": ".dropdown-toggle", "content": "Диагностика" }
+  ]
+}
