@@ -1,9 +1,24 @@
 {
   "hiddenElements": [
-    { "selector": ".modified", "content": "ID" },
+    { "selector": ".modified", "content": "" },
     { "selector": ".text-subhead", "content": "Rails" },
     { "selector": ".element", "content": "123" },
-    { "selector": ".v-btn__content", "content": "для админов" },
-    { "selector": ".dropdown-toggle", "content": "Диагностика" }
+    { "selector": ".v-btn", "content": "для админов" },
+    { "selector": ".btn-group", "content": "Импорт клиентов" },
+    { "selector": ".btn-group", "content": "Импорт заказов" },
+    { "selector": ".btn-default", "content": "Бэкап товаров" },
+    { "selector": ".btn-default", "content": "Восстановление товаров" },
+    { "selector": ".glyphicon-user-asterisk", "content": "" },
+    { "selector": ".edit_domain", "content": "" },
+	{ "selector": "th", "content": "Продлить SSL" },
+	{ "selector": "li", "content": "Rails Log" },
+	{ "selector": "li", "content": "Все приложения" },
+	{ "selector": "li", "content": "Снимки состояния товаров" },
+	{ "selector": ".error", "content": "только АДМИНАМ" },
+    { "selector": ".dropdown-toggle", "content": "Диагностика" },
+    { "selector": ".container div", "content": "Данный раздел отображается только для админов"},
+    { "selector": "table", "content": "Заявка на регистрацию домена"},
+    { "selector": "table#products th:nth-child(5), table#products td:nth-child(5)", "content": "", "path": "/admin2/request_logs" },
+    { "selector": "table#products th:nth-child(7), table#products td:nth-child(7)", "content": "", "path": "/admin2/request_logs" }
   ]
 }
