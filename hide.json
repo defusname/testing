@@ -9,7 +9,6 @@
     { "selector": ".btn-default", "content": "Бэкап товаров" },
     { "selector": ".btn-default", "content": "Восстановление товаров" },
     { "selector": ".glyphicon-user-asterisk", "content": "" },
-    { "selector": ".edit_domain", "content": "" },
 	{ "selector": "table.table-default th:nth-child(7), table.table-default td:nth-child(7)", "content": "", "path": "/admin2/domains" },
 	{ "selector": "li", "content": "Rails Log" },
 	{ "selector": "li", "content": "Все приложения" },
