@@ -10,7 +10,7 @@
     { "selector": ".btn-default", "content": "Восстановление товаров" },
     { "selector": ".glyphicon-user-asterisk", "content": "" },
     { "selector": ".edit_domain", "content": "" },
-	{ "selector": "table#products th:nth-child(7), table#products td:nth-child(7)", "content": "", "path": "/admin2/request_logs" },
+	{ "selector": "table.table-default th:nth-child(7), table.table-default td:nth-child(7)", "content": "", "path": "/admin2/request_logs" },
 	{ "selector": "li", "content": "Rails Log" },
 	{ "selector": "li", "content": "Все приложения" },
 	{ "selector": "li", "content": "Снимки состояния товаров" },
