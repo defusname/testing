@@ -14,6 +14,7 @@
 	{ "selector": "li", "content": "Снимки состояния товаров" },
 	{ "selector": ".error", "content": "только АДМИНАМ" },
     { "selector": ".dropdown-toggle", "content": "Диагностика" },
+    { "selector": ".my-6", "content": "Провайдер" },
     { "selector": ".container div", "content": "Данный раздел отображается только для админов"},
     { "selector": "table", "content": "Заявка на регистрацию домена"},
     { "selector": "table#products th:nth-child(5), table#products td:nth-child(5)", "content": "", "path": "/admin2/request_logs" },
