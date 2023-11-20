@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание Расширения</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 40px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 30px;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Основные функции расширения</h1>
+
+     <ul>
+        <li>
+            <strong>1) Быстрый доступ к дальним страницам магазина:</strong>
+            <p>При клике на расширение открывается блок с удобным списком страниц магазина. Основное предназначение расширения — это быстрый доступ установке конкретных платёжек (теперь не нужно ждать загрузки раздела "Все расширения" и искать нужное приложение!), но вы также можете добавлять свои пункты в других категориях.</p>
+            <img src="https://static.insales-cdn.com/files/1/1621/32179797/original/1.gif" alt="Гифка 1">
+        </li>
+
+        <li>
+            <strong>2) Открытие конкретной страницы панели администратора в JSON/XML для просмотра детальной информации:</strong>
+            <p>Просто щелкните правой кнопкой мыши на странице, наведите на "inSales Support" и выберите один из пунктов. Вам не нужно будет вручную менять ссылку с admin2 на admin и подставлять нужное расширение - это произойдёт в два щелчка</p>
+            <img src="https://static.insales-cdn.com/files/1/1627/32179803/original/4.gif" alt="Гифка 2">
+        </li>
+
+        <li>
+            <strong>3) Вывод id вариантов товара:</strong>
+            <p>На странице товара отображается id вариантов. Клик левой кнопкой мыши по ID варианта - добавляет его в буфер обмена, клик правой кнопкой мыши+"Открыть JSON"\"Открыть XML" - откроет детальную информацию по выбранному варианту товара (функционал из пункта 2)</p>
+            <img src="https://static.insales-cdn.com/files/1/1626/32179802/original/2.gif" alt="Гифка 3">
+        </li>
+
+        <li>
+            <strong>4) Быстрая вставка ссылки на нужный раздел:</strong>
+            <p>В тикетке можно вызвать блок с поиском по разделам панели администратора. Щелчок по нужному разделу сразу же добавляет текстовый путь до него и ссылку на раздел в этом магазине</p>
+            <img src="https://static.insales-cdn.com/files/1/1622/32179798/original/5.gif" alt="Гифка 4">
+        </li>
+
+        <li>
+            <strong>5) Режим скриншота для администратора:</strong>
+            <p>В панели администратора используйте сочетание клавиш Ctrl+Shift+X, чтобы включить режим скриншота. В этом режиме будут скрыты элементы, предназначенные только для технической поддержки.</p>
+            <img src="https://static.insales-cdn.com/files/1/1623/32179799/original/3.gif" alt="Гифка 5">
+        </li>
+    </ul>
+	
+	<ul>
+		<li class="faq-item">
+			<div class="faq-question" onclick="toggleFAQ('faq1')">Как установить?</div>
+			<div class="faq-answer" id="faq1">
+				<p>Скачать архив с поста, зайти в chrome://extensions/, включить "Режим разработчика" и перекинуть архив в эту вкладку</p>
+				<p>Видео - <a href="https://skrinshoter.ru/vMtMhdiXErX?a">https://skrinshoter.ru/vMtMhdiXErX?a</a></p>
+			</div>
+		</li>
+				<li class="faq-item">
+			<div class="faq-question" onclick="toggleFAQ('faq2')">Как работают категории и страницы в самом расширении?</div>
+			<div class="faq-answer" id="faq2">
+				<p>По умолчанию всегда есть категория "Вне категории" (туда будут попадать все страницы без категории) и "Приложения". При первой установке так же подтянется ещё пара категорий и страниц, до которых слишком далеко идти вручную (по моему мнению) - их можно удалить. То что находится в "Приложения" добавлять/редактировать и удалять не рекомендуется:)</p>
+				<p>Нажимать на нужный раздел для перехода нужно открыв магазин, и дождавшись, когда его url сменится на myinsales.ru (при этом дожидаться окончательной загрузке необязательно)</p>
+				<p>Всё по классике - левая кнопка мыши изменит url текущей вкладки, средняя кнопка мыши откроет новую вкладку с изменённым url</p>
+			</div>
+		</li>
+		<li class="faq-item">
+			<div class="faq-question" onclick="toggleFAQ('faq3')">Что обновляется автоматически?</div>
+			<div class="faq-answer" id="faq3">
+				<p>Список платёжек (из функционала 1)</p>
+				<p>Cписок разделов магазина (из функциоанала 4)</p>
+				<p>Cписок элементов, которые скрываются в режиме скриншота (из функционала 5)</p>
+			</div>
+		</li>
+		<li class="faq-item">
+			<div class="faq-question" onclick="toggleFAQ('faq4')">Что за говнокод?</div>
+			<div class="faq-answer" id="faq4">
+				<p>Не обижай ChatGPT</p>
+			</div>
+		</li>
+	</ul>
+    <script>
+        // Изменения в скрипте для обеспечения корректной работы
+        function toggleFAQ(id) {
+            var faqItem = document.getElementById(id);
+            if (faqItem.style.display === '' || faqItem.style.display === 'none') {
+                faqItem.style.display = 'block';
+            } else {
+                faqItem.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
