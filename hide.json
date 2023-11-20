@@ -13,6 +13,7 @@
 	{ "selector": "th", "content": "Продлить SSL" },
 	{ "selector": "li", "content": "Rails Log" },
 	{ "selector": "li", "content": "Все приложения" },
+	{ "selector": "td", "content": "Продлён до" },
 	{ "selector": "li", "content": "Снимки состояния товаров" },
 	{ "selector": ".error", "content": "только АДМИНАМ" },
     { "selector": ".dropdown-toggle", "content": "Диагностика" },
