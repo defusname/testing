@@ -2,7 +2,6 @@
   "hiddenElements": [
     { "selector": ".modified", "content": "" },
     { "selector": ".text-subhead", "content": "Rails" },
-    { "selector": ".element", "content": "123" },
     { "selector": ".v-btn", "content": "для админов" },
     { "selector": ".btn-group", "content": "Импорт клиентов" },
     { "selector": ".btn-group", "content": "Импорт заказов" },
