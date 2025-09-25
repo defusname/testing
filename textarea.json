@@ -39,6 +39,11 @@
         "path": "/admin2/categories/-2",
         "link": "\"Товары\" → \"Импорт/Экспорт\" → \"Корзина\""
     },
+	{
+        "title": "Цены и остатки",
+        "path": "/admin2/prices_stocks",
+        "link": "\"Товары\" → \"Цены и остатки\""
+    },
     {
         "title": "Товарные выгрузки",
         "path": "/admin2/marketplaces",
@@ -54,29 +59,34 @@
         "path": "/admin2/reviews/settings",
         "link": "\"Товары\" → \"Отзывы\" → *Знак шестерёнки*"
     },
-    {
+{
         "title": "Посылки",
         "path": "/admin2/delivery/shipments",
         "link": "\"Доставка\" → \"Посылки\""
     },
-	{
+    {
         "title": "Отгрузки",
         "path": "/admin2/delivery/intakes",
         "link": "\"Доставка\" → \"Отгрузки\""
     },
-	{
+    {
+        "title": "Отчеты",
+        "path": "/admin2/delivery/dashboard",
+        "link": "\"Доставка\" → \"Отчеты\""
+    },
+    {
         "title": "Калькулятор",
         "path": "/admin2/delivery/calculator",
         "link": "\"Доставка\" → \"Калькулятор\""
     },
-	{
+    {
         "title": "Финансы",
-        "path": "/admin2/delivery/setup",
+        "path": "/admin2/delivery/finance",
         "link": "\"Доставка\" → \"Финансы\""
     },
-	{
-        "title": "Настройки",
-        "path": "/admin2/delivery/shipments",
+    {
+        "title": "Настройки (inSales Доставка)",
+        "path": "/admin2/delivery/settings",
         "link": "\"Доставка\" → \"Настройки\""
     },
     {
@@ -90,34 +100,49 @@
         "link": "\"Аналитика\" → \"Товарная аналитика\""
     },
     {
-        "title": "Дефицит товаров",
-        "path": "/admin2/products_deficit",
-        "link": "\"Аналитика\" → \"Дефицит товаров\""
-    },
-    {
         "title": "Прибыль и убытки",
-        "path": "/admin2/profit_and_loss",
+        "path": "/admin2/analytics/v1/profit_and_loss",
         "link": "\"Аналитика\" → \"Прибыль и убытки\""
     },
     {
+        "title": "Отчёт по продажам",
+        "path": "/admin2/analytics/v1/sales_analytics",
+        "link": "\"Аналитика\" → \"Отчёт по продажам\""
+    },
+    {
+        "title": "Оборачиваемость",
+        "path": "/admin2/analytics/v1/stocks_turnover",
+        "link": "\"Аналитика\" → \"Оборачиваемость\""
+    },
+    {
         "title": "Реклама товаров",
-        "path": "/admin2/campaigns",
+        "path": "/admin2/analytics/v1/campaigns",
         "link": "\"Аналитика\" → \"Реклама товаров\""
     },
     {
         "title": "Источники заказов",
-        "path": "/admin2/order_sources",
+        "path": "/admin2/analytics/v1/order_sources",
         "link": "\"Аналитика\" → \"Источники заказов\""
     },
     {
-        "title": "Отчет по продажам",
+        "title": "Дефицит товаров",
+        "path": "/admin2/analytics/v1/products_deficit",
+        "link": "\"Аналитика\" → \"Дефицит товаров\""
+    },
+    {
+        "title": "Отчёт по продажам (старый)",
         "path": "/admin2/sales_analytics",
-        "link": "\"Аналитика\" → \"Отчет по продажам\""
+        "link": "\"Аналитика\" → \"Отчёт по продажам (старый)\""
     },
     {
         "title": "Продвижение",
         "path": "/admin2/promotion",
-        "link": "\"Продвижение\""
+        "link": "\"Продвижение\" → \"Каналы\""
+    },
+	{
+        "title": "Брошенные корзины",
+        "path": "/admin2/cart_sessions",
+        "link": "\"Продвижение\" → \"Брошенные корзины\""
     },
     {
         "title": "Все клиенты",
@@ -428,6 +453,11 @@
         "title": "Помощь",
         "path": "/admin2/documentation",
         "link": "\"Помощь\""
+    },
+	{
+        "title": "Написать обращение",
+        "path": "/admin2/tickets_jwt/create_ticket",
+        "link": "\"Помощь\" → \"Написать обращение\""
     },
 	{
         "title": "Разработчикам",
